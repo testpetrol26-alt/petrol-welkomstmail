@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="{{taal}}" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{onderwerp}}</title>
+<!--[if mso]>
+<noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+<![endif]-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+  body { margin:0; padding:0; background-color:#f5f4ed; }
+  table { border-collapse:collapse; }
+  img { border:0; line-height:100%; outline:none; text-decoration:none; }
+  @media only screen and (max-width:620px) {
+    .container { width:100% !important; }
+    .px { padding-left:20px !important; padding-right:20px !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#f5f4ed;">
+
+<!-- Preheader (onzichtbaar, toont in inbox-preview) -->
+<div style="display:none;font-size:1px;color:#f5f4ed;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">
+{{preheader}}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f5f4ed">
+<tr><td align="center" style="padding:24px 12px;">
+
+  <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+  <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;">
+
+    <!-- ===== HEADER: LOGO (asset-slot: logo.png) ===== -->
+    <tr><td align="center" style="padding:8px 0 24px 0;">
+      <img src="{{assets_base}}/logo.png" alt="Petrol Industries" width="140" style="display:block;width:140px;height:auto;">
+    </td></tr>
+
+    <!-- ===== KAART ===== -->
+    <tr><td bgcolor="#ffffff" style="background-color:#ffffff;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+
+        <!-- HERO (asset-slot: hero.jpg) -->
+        <tr><td>
+          <img src="{{assets_base}}/hero.jpg" alt="Petrol Industries" width="600" style="display:block;width:100%;max-width:600px;height:auto;">
+        </td></tr>
+
+        <!-- TITEL -->
+        <tr><td align="center" class="px" style="padding:36px 40px 8px 40px;">
+          <h1 style="margin:0;font-family:'Roboto Slab',Georgia,'Times New Roman',serif;font-size:26px;line-height:34px;font-weight:700;color:#003344;letter-spacing:1px;">{{titel}}</h1>
+        </td></tr>
+
+        <!-- INTRO -->
+        <tr><td class="px" style="padding:16px 40px 8px 40px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">
+          <p style="margin:0 0 12px 0;font-weight:bold;">{{intro_1}}</p>
+          <p style="margin:0;">{{intro_2}}</p>
+        </td></tr>
+
+        <!-- KLANTNUMMER -->
+        <tr><td class="px" style="padding:24px 40px 8px 40px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f5f4ed" style="background-color:#f5f4ed;">
+            <tr><td align="center" style="padding:24px 24px 20px 24px;">
+              <h2 style="margin:0 0 10px 0;font-family:'Roboto Slab',Georgia,serif;font-size:18px;line-height:24px;font-weight:700;color:#003344;letter-spacing:1px;">{{klantnummer_kop}}</h2>
+              <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">{{klantnummer_tekst}}</p>
+              <p style="margin:0 0 12px 0;font-family:'Roboto Slab',Georgia,serif;font-size:24px;line-height:30px;font-weight:700;color:#003344;letter-spacing:2px;">{{klantnummer}}</p>
+              <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;color:#383e42;">{{klantnummer_na}}</p>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- B2B PORTAL -->
+        <tr><td class="px" style="padding:28px 40px 0 40px;">
+          <h2 style="margin:0 0 12px 0;font-family:'Roboto Slab',Georgia,serif;font-size:18px;line-height:24px;font-weight:700;color:#003344;letter-spacing:1px;">{{b2b_kop}}</h2>
+          <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">{{b2b_intro_1}}</p>
+          <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">{{b2b_intro_2}}</p>
+        </td></tr>
+
+        <!-- INLOGSTAPPEN -->
+        <tr><td class="px" style="padding:20px 40px 0 40px;">
+          <h3 style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:bold;color:#003344;">{{inloggen_kop}}</h3>
+          <ol style="margin:0;padding:0 0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:26px;color:#383e42;">
+{{inloggen_stappen_html}}
+          </ol>
+        </td></tr>
+
+        <!-- INSTELLINGEN -->
+        <tr><td class="px" style="padding:20px 40px 0 40px;">
+          <h3 style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:bold;color:#003344;">{{instellingen_kop}}</h3>
+          <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">{{instellingen_intro}}</p>
+          <ul style="margin:0;padding:0 0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:26px;color:#383e42;">
+{{instellingen_bullets_html}}
+          </ul>
+        </td></tr>
+
+        <!-- CTA-KNOP -->
+        <tr><td align="center" style="padding:28px 40px 8px 40px;">
+          <table role="presentation" cellpadding="0" cellspacing="0">
+            <tr><td align="center" bgcolor="#003344" style="background-color:#003344;border-radius:3px;">
+              <a href="{{button_account_url}}" target="_blank" style="display:inline-block;padding:14px 36px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">{{button_account}}</a>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- SUPPORT -->
+        <tr><td align="center" class="px" style="padding:20px 40px 0 40px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">
+          <p style="margin:0 0 6px 0;">{{support_tekst}}</p>
+          <p style="margin:0;">
+            {{support_email_label}}: <a href="mailto:{{support_email}}" style="color:#003344;font-weight:bold;">{{support_email}}</a><br>
+            {{support_tel_label}}: <a href="tel:{{support_tel_link}}" style="color:#003344;font-weight:bold;text-decoration:none;">{{support_tel}}</a>
+          </p>
+        </td></tr>
+
+        <!-- SCHEIDING -->
+        <tr><td class="px" style="padding:28px 40px 0 40px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+            <tr><td height="1" style="font-size:1px;line-height:1px;background-color:#cad4d8;">&nbsp;</td></tr>
+          </table>
+        </td></tr>
+
+        <!-- BRAND MOVIE -->
+        <tr><td align="center" class="px" style="padding:24px 40px 0 40px;">
+          <h2 style="margin:0 0 10px 0;font-family:'Roboto Slab',Georgia,serif;font-size:18px;line-height:24px;font-weight:700;color:#003344;letter-spacing:1px;">{{movie_kop}}</h2>
+          <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">{{movie_tekst}}</p>
+          <table role="presentation" cellpadding="0" cellspacing="0">
+            <tr><td align="center" style="border:2px solid #003344;border-radius:3px;">
+              <a href="{{brandmovie_url}}" target="_blank" style="display:inline-block;padding:12px 32px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#003344;text-decoration:none;letter-spacing:0.5px;">{{movie_button}}</a>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- AFSLUITING -->
+        <tr><td align="center" class="px" style="padding:24px 40px 36px 40px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:24px;color:#383e42;">
+          <p style="margin:0;">{{afsluiting}}</p>
+        </td></tr>
+
+      </table>
+    </td></tr>
+
+    <!-- ===== FOOTER ===== -->
+    <tr><td bgcolor="#003344" align="center" style="background-color:#003344;padding:32px 40px;">
+      <img src="{{assets_base}}/logo.png" alt="Petrol Industries" width="100" style="display:block;width:100px;height:auto;margin:0 auto 16px auto;">
+      <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#cad4d8;">{{footer_adres}}</p>
+      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#cad4d8;">
+        E: <a href="mailto:{{support_email}}" style="color:#ffffff;text-decoration:none;">{{support_email}}</a>
+        &nbsp;|&nbsp; T: <a href="tel:{{support_tel_link}}" style="color:#ffffff;text-decoration:none;">{{support_tel}}</a>
+      </p>
+    </td></tr>
+
+  </table>
+  <!--[if mso]></td></tr></table><![endif]-->
+
+</td></tr>
+</table>
+</body>
+</html>
