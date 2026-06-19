@@ -1,0 +1,39 @@
+{
+  "taal": "de",
+  "onderwerp": "Willkommen bei Petrol – Ihre Reise beginnt hier",
+  "preheader": "Wir freuen uns, Sie in unserer wachsenden Familie begrüßen zu dürfen.",
+  "titel": "WILLKOMMEN BEI PETROL – IHRE REISE BEGINNT HIER",
+  "intro_1": "Willkommen bei Petrol!",
+  "intro_2": "Wir freuen uns, Sie in unserer wachsenden Familie begrüßen zu dürfen. Diese E-Mail enthält alles, was Sie für den Einstieg in unsere Marke und den Zugriff auf unsere Tools benötigen.",
+  "klantnummer_kop": "KUNDENNUMMER",
+  "klantnummer_tekst": "Wir haben für Sie eine Kundennummer erstellt:",
+  "klantnummer_na": "Bitte geben Sie diese Nummer in Ihrer zukünftigen Korrespondenz an, damit wir Sie effizienter unterstützen können.",
+  "b2b_kop": "B2B-KONTOPORTAL",
+  "b2b_intro_1": "In wenigen Minuten erhalten Sie eine E-Mail von Colect mit Anweisungen zur Erstellung Ihres B2B-Kontos. Bitte folgen Sie den Schritten in dieser E-Mail, um Ihre Registrierung abzuschließen. <em>Bitte prüfen Sie auch Ihren Spam-Ordner.</em>",
+  "b2b_intro_2": "Unser B2B-Portal ist die zentrale Anlaufstelle, um einfach Bestellungen aufzugeben und Ihr Konto zu verwalten.",
+  "inloggen_kop": "Erstanmeldung",
+  "inloggen_stappen": [
+    "Gehen Sie zu <a href=\"https://b2b.petrolindustries.com/\" style=\"color:#003344;\">https://b2b.petrolindustries.com/</a>",
+    "Geben Sie Ihre E-Mail-Adresse ein (Ihr Benutzername)",
+    "Klicken Sie auf „Aktivieren“",
+    "Sie erhalten eine E-Mail mit Ihrem Passwort"
+  ],
+  "instellingen_kop": "Einstellungen anpassen",
+  "instellingen_intro": "Nach der Anmeldung können Sie im Einstellungsmenü ganz einfach:",
+  "instellingen_bullets": [
+    "Ihr Passwort ändern",
+    "Ihre Spracheinstellungen anpassen"
+  ],
+  "button_account": "Hier Ihr Konto erstellen",
+  "button_account_url": "https://b2b.petrolindustries.com/",
+  "support_tekst": "Bei Fragen oder falls Sie Hilfe benötigen, steht Ihnen unser Team jederzeit gerne zur Verfügung.",
+  "support_email_label": "E-Mail",
+  "support_email": "customerservice@petrolindustries.com",
+  "support_tel_label": "Telefon",
+  "support_tel": "+31 13 205 0500",
+  "movie_kop": "UNSER MARKENFILM",
+  "movie_tekst": "Entdecken Sie die Geschichte von Petrol und lassen Sie sich von unserem Markenfilm inspirieren.",
+  "movie_button": "Markenfilm ansehen",
+  "afsluiting": "Wir freuen uns auf die Zusammenarbeit und darauf, gemeinsam großartige Ergebnisse zu erzielen.",
+  "footer_adres": "Kalundborg 6, 5026 SE Tilburg | Netherlands"
+}

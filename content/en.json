@@ -1,0 +1,39 @@
+{
+  "taal": "en",
+  "onderwerp": "Welcome to Petrol – Your journey starts here",
+  "preheader": "We're excited to welcome you as part of our growing family.",
+  "titel": "WELCOME TO PETROL – YOUR JOURNEY STARTS HERE",
+  "intro_1": "Welcome to Petrol!",
+  "intro_2": "We're excited to welcome you as part of our growing family. This email contains everything you need to get started with our brand and access our tools.",
+  "klantnummer_kop": "CUSTOMER NUMBER",
+  "klantnummer_tekst": "We have created a customer number for you:",
+  "klantnummer_na": "Please include this number in all future correspondence, as it will help us assist you more efficiently.",
+  "b2b_kop": "B2B PORTAL",
+  "b2b_intro_1": "In a few minutes, you will receive an email from Colect with instructions to create your B2B account. Please follow the steps in that email to complete your registration. <em>Please also check your spam folder.</em>",
+  "b2b_intro_2": "Our B2B portal is the central place where you can easily place orders and manage your account.",
+  "inloggen_kop": "Log in for the first time",
+  "inloggen_stappen": [
+    "Go to <a href=\"https://b2b.petrolindustries.com/\" style=\"color:#003344;\">https://b2b.petrolindustries.com/</a>",
+    "Enter your email address (this is your username)",
+    "Click “Activate”",
+    "You will receive an email with your password"
+  ],
+  "instellingen_kop": "Adjust settings",
+  "instellingen_intro": "After logging in, you can easily use the settings menu to:",
+  "instellingen_bullets": [
+    "change your password",
+    "adjust your language settings"
+  ],
+  "button_account": "Create your account here",
+  "button_account_url": "https://b2b.petrolindustries.com/",
+  "support_tekst": "If you have any questions or need assistance, our team is always ready to help.",
+  "support_email_label": "E-mail",
+  "support_email": "customerservice@petrolindustries.com",
+  "support_tel_label": "Phone number",
+  "support_tel": "+31 13 205 0500",
+  "movie_kop": "OUR BRAND MOVIE",
+  "movie_tekst": "Discover the story behind Petrol and get inspired by our brand movie.",
+  "movie_button": "Watch the brand movie",
+  "afsluiting": "We are excited to start this collaboration and look forward to achieving great results together.",
+  "footer_adres": "Kalundborg 6, 5026 SE Tilburg | Netherlands"
+}
